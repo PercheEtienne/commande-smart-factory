@@ -99,10 +99,11 @@ function setupJSON() {
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);
-            alert("Commande validée !")
+            alert("Commande validée !");
         })
         .catch((error) => {
             console.error('Error:', error);
+            alert("Commande echouée !");
         })
 }
 
