@@ -1,0 +1,80 @@
+.page {
+    display: flex;
+}
+.form {
+    width: 40%;
+}
+.box {
+    width: 200px;
+    height: 450px;
+    border: 1px solid black;
+    background-color: lightgrey;
+    margin-right: 10px;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 50px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.contact{
+    width: 40px;
+    height: 40px;
+    margin: 80px auto;
+    background: lightslategrey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.BP_GREEN {
+    background: green;
+}
+
+.BP_BLUE {
+    background: blue;
+}
+
+.BP_RED {
+    background: red;
+}
+
+.BP_AU {
+    background: darkred;
+}
+
+.BP_STARTSTOP {
+    background: cadetblue;
+}
+
+.NC{
+    background-color: firebrick;
+}
+.NO{
+    background-color: forestgreen;
+}
+
+@keyframes blink {
+    30% {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    animation: blink 1s step-start 0s infinite;
+}
+
+#btn4 {
+    display: none;
+}
+
+
+
+

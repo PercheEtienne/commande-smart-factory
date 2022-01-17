@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node-opcua": "^2.62.6",
+    "node-red-contrib-opcua": "^0.2.252"
+  }
+}
